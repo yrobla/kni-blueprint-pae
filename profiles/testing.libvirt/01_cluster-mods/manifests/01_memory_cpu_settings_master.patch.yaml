@@ -1,0 +1,8 @@
+apiVersion: machine.openshift.io/v1beta1
+kind: Machine
+spec:
+  providerSpec:
+    value:
+      apiVersion: libvirtproviderconfig.openshift.io/v1beta1
+      domainMemory: 12288
+      domainVcpu: 4

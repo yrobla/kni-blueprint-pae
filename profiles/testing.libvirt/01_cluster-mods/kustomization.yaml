@@ -2,3 +2,5 @@ bases:
 - ../../../base/01_cluster-mods
 patches:
 - manifests/00_downscale_ingress_replicas.patch.yaml
+- manifests/01_memory_cpu_settings_master.patch.yaml
+- manifests/02_memory_cpu_settings_worker.patch.yaml
