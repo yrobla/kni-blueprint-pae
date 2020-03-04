@@ -1,5 +1,8 @@
 apiVersion: machine.openshift.io/v1beta1
 kind: MachineSet
+metadata:
+  name: .*
+  namespace: openshift-machine-api
 spec:
   template:
     spec:
