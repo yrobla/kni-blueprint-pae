@@ -5,12 +5,12 @@ patches:
 - target:
     group: machine.openshift.io
     version: v1beta1
-    kind: MachineSet
+    kind: Machine
     name: .*
   path: openshift/01_memory_cpu_settings_master.patch.yaml
 - target:
     group: machine.openshift.io
     version: v1beta1
-    kind: Machine
+    kind: MachineSet
     name: .*
   path: openshift/02_memory_cpu_settings_worker.patch.yaml
