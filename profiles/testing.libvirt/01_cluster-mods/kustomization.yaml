@@ -1,7 +1,8 @@
 bases:
 - ../../../base/01_cluster-mods
-patches:
+resources:
 - manifests/00_downscale_ingress_replicas.patch.yaml
+patches:
 - target:
     group: machine.openshift.io
     version: v1beta1
